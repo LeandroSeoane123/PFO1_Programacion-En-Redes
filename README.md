@@ -3,12 +3,16 @@ Esta es la solucion a las consignas de la practica formativa obligatoria n°1 de
 Consignas:
 
 Propuesta Formativa Obligatoria
+
 TP: Implementación de un Chat Básico Cliente-Servidor con Sockets y Base de Datos
 Objetivo:
+
 Aprender a configurar un servidor de sockets en Python que reciba mensajes de clientes,
 los almacene en una base de datos y envíe confirmaciones, aplicando buenas prácticas de
 modularización y manejo de errores.
+
 Utilizar los comentarios para explicar tus configuraciones en el servidor.
+
 Servidor:
 Creá un socket que escuche en localhost:5000.
 Usá funciones separadas para:
@@ -18,6 +22,7 @@ Usá funciones separadas para:
    fecha_envio, ip_cliente.
  ● Manejar errores (puerto ocupado, DB no accesible).
  ● Responde al cliente con: "Mensaje recibido: <timestamp>".
+ 
 Cliente:
  ● Debe tener la capacidad de conectarse al servidor y enviar múltiples mensajes
    hasta que el usuario escriba éxito.
